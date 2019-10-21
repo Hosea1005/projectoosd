@@ -20,7 +20,7 @@ public class ViewObat {
 
     public void tampil(){
         nama.add("Amoxilin");
-        id.add(001);
+        id.add(1);
         jenis.add("Pening");
         harga.add(1231);
         for (int i = 0; i < nama.size(); i++) {

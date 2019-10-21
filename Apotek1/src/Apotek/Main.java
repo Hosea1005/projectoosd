@@ -7,6 +7,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        ViewObat v=new ViewObat();
+        v.nama.add("Amoxilin");
+        v.id.add(1);
+        v.jenis.add("Pening");
+        v.harga.add(1231);
         int pilih;
         System.out.println("---SELAMAT DATANG---");
         System.out.println("--APOTEK MAMMAN 18--");

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14a6eefc-6adc-4cc9-8799-3ba065d04a24" name="Default Changelist" comment="" />
+    <list default="true" id="14a6eefc-6adc-4cc9-8799-3ba065d04a24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Apotek1/Apotek/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Apotek1/Apotek/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Apotek1/Apotek/Pembayaran.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Apotek1/Apotek/Pembayaran.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Apotek1/Apotek/Pemesanan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Apotek1/Apotek/Pemesanan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Apotek1/Apotek/ViewObat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Apotek1/Apotek/ViewObat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apotek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apotek/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apotek/Pembayaran.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apotek/Pembayaran.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apotek/Pemesanan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apotek/Pemesanan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apotek/ViewObat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apotek/ViewObat.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +26,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SFGDUfKkEkrOg2VqcJuSHN7xUy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Source/Semester3/IF42103 - Object-Oriented Software Development/ProjekPribadi/BookingLapangan" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -79,7 +97,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571151810706</updated>
+      <workItem from="1571638500431" duration="968000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

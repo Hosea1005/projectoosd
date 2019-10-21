@@ -7,17 +7,17 @@ public class Pemesanan extends  ViewObat{
     ArrayList<String> nama =  new ArrayList<>();
     ArrayList<Integer> antri =  new ArrayList<>();
 
+    int antriPemesanan;
+    String namaPemesanan;
+    int a;
+    int b;
+    int idO;
 
     public void pesan(){
         ViewObat v=new ViewObat();
         v.tampil();
         Scanner scan = new Scanner(System.in);
 
-        int antriPemesanan;
-        String namaPemesanan;
-        int a;
-        int b;
-        int idO;
         System.out.println("-------Pemesanan--------\n");
         System.out.println("Masukkan nomor antrian : ");
         antriPemesanan = scan.nextInt();
@@ -28,6 +28,7 @@ public class Pemesanan extends  ViewObat{
         System.out.println("Masukkan ID Obat : ");
         idO = scan.nextInt();
 
+        System.out.println(v.id.size());
         for (int i = 0; i < v.id.size(); i++) {
             if(idO ==  v.id.get(i)){
                 System.out.println("-----Daftar Obat-----");
