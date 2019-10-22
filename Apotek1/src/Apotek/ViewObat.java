@@ -19,17 +19,28 @@ public class ViewObat {
 
 
     public void tampil(){
-        nama.add("Amoxilin");
-        id.add(1);
-        jenis.add("Pening");
-        harga.add(1231);
         for (int i = 0; i < nama.size(); i++) {
             System.out.println("-----Daftar Obat-----");
+
             System.out.println("ID: " + id.get(i) + "\nNama : " + nama.get(i) + "\nJenis : " + jenis.get(i) + "\nHarga : Rp. " + harga.get(i));
+        }
+    }
+    public void search(int idObat){
+        System.out.println(id.size());
+        for (int i = 0; i < id.size(); i++) {
+            System.out.println(idObat + " adalah  " + id.get(i));
+//            if(idObat == id.get(i) ){
+//                System.out.println("-----Daftar Obat-----");
+//                System.out.println("ID: " + id.get(i) + "\nNama : " + nama.get(i) + "\nJenis : " + jenis.get(i) + "\nHarga : Rp. " + harga.get(i));
+//            }
         }
     }
 
     public void View() {
+        nama.add("Amoxilin");
+        id.add(001);
+        jenis.add("Pening");
+        harga.add(1231);
         ViewObat v=new ViewObat();
         v.tampil();
                for(int z = 0;z<id.size();z++){
@@ -44,12 +55,9 @@ public class ViewObat {
             int price;
             int cari;
 
-            for (int i = 0; i < nama.size(); i++) {
-                System.out.println("-----Daftar Obat-----");
 
-                System.out.println("ID: " + id.get(i) + "\nNama : " + nama.get(i) + "\nJenis : " + jenis.get(i) + "\nHarga : Rp. " + harga.get(i));
-            }
             System.out.println("Pilihan");
+            System.out.println("0. Lihat Obat");
             System.out.println("1. Tambah obat");
             System.out.println("2. Edit obat");
             System.out.println("3. Hapus obat");
@@ -58,7 +66,10 @@ public class ViewObat {
             System.out.println("Input Pilihan Anda : ");
             Scanner scan =new Scanner(System.in);
             input = scan.nextInt();
-            if(input == 1){
+            if(input==0){
+                tampil();
+            }
+            else if(input == 1){
                 System.out.println("Isi data di bawah ini : ");
                 System.out.println("ID obat : ");
                 price = scan.nextInt();

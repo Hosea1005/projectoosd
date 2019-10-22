@@ -10,7 +10,7 @@ public class Pembayaran extends Pemesanan{
         System.out.println("Pembayaran");
         System.out.println("Masukkan nomor antrian : ");
         cari = scan.nextInt();
-        System.out.println(pesan.antri.isEmpty());
+        System.out.println(pesan.antri.size());
         for (int i = 0; i < pesan.antri.size(); i++) {
             if(cari ==  pesan.antri.get(i)){
                 System.out.println("-----Pesanan Anda-----");
